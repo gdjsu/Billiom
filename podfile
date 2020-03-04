@@ -1,0 +1,10 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'Biliilon1' do
+  
+  pod 'SDWebImage'
+  pod 'Masonry'
+  
+end

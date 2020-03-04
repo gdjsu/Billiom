@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		563493C8240CAC86003A72A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 563493C7240CAC86003A72A8 /* AppDelegate.m */; };
+		563493CB240CAC86003A72A8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 563493CA240CAC86003A72A8 /* SceneDelegate.m */; };
+		563493CE240CAC86003A72A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563493CD240CAC86003A72A8 /* ViewController.m */; };
+		563493D1240CAC86003A72A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 563493CF240CAC86003A72A8 /* Main.storyboard */; };
+		563493D3240CAC86003A72A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563493D2240CAC86003A72A8 /* Assets.xcassets */; };
+		563493D6240CAC86003A72A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 563493D4240CAC86003A72A8 /* LaunchScreen.storyboard */; };
+		563493D9240CAC86003A72A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 563493D8240CAC86003A72A8 /* main.m */; };
+		56EB8CB3240E53AF00846C4B /* KSYearOngoingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EB8CB2240E53AF00846C4B /* KSYearOngoingTableViewController.m */; };
+		56EB8CB6240E72A600846C4B /* KSYearHaveFinishTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EB8CB5240E72A600846C4B /* KSYearHaveFinishTableViewController.m */; };
+		56EB8CBA240E72D500846C4B /* KSYearOverDueTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EB8CB9240E72D500846C4B /* KSYearOverDueTableViewController.m */; };
+		56EB8CBD240E846F00846C4B /* KSYearHomePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EB8CBC240E846F00846C4B /* KSYearHomePageView.m */; };
+		56ED4BD6240FE9750098B160 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 56ED4BD5240FE96E0098B160 /* libsqlite3.tbd */; };
+		56ED4BD9240FE99E0098B160 /* KStargetDataSqlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56ED4BD8240FE99E0098B160 /* KStargetDataSqlViewController.m */; };
+		56F0D53F240CFB4300B13AA7 /* KSNewBuildTargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F0D53E240CFB4300B13AA7 /* KSNewBuildTargetViewController.m */; };
+		56F0D542240CFB7D00B13AA7 /* KSYearTargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F0D541240CFB7D00B13AA7 /* KSYearTargetViewController.m */; };
+		56F0D545240CFBD400B13AA7 /* KSQuarterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F0D544240CFBD400B13AA7 /* KSQuarterViewController.m */; };
+		56F0D548240CFBF700B13AA7 /* KSMonthTargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F0D547240CFBF700B13AA7 /* KSMonthTargetViewController.m */; };
+		56F0D54B240CFC6200B13AA7 /* KSDayTargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F0D54A240CFC6200B13AA7 /* KSDayTargetViewController.m */; };
+		56F0D54E240CFCA400B13AA7 /* KSHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F0D54D240CFCA400B13AA7 /* KSHomePageViewController.m */; };
+		B7E636D245458B07E697C9FB /* Pods_Biliilon1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8604C4D281431C214D03316 /* Pods_Biliilon1.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		563493C3240CAC86003A72A8 /* Biliilon1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Biliilon1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		563493C6240CAC86003A72A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		563493C7240CAC86003A72A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		563493C9240CAC86003A72A8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		563493CA240CAC86003A72A8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		563493CC240CAC86003A72A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		563493CD240CAC86003A72A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		563493D0240CAC86003A72A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		563493D2240CAC86003A72A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		563493D5240CAC86003A72A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		563493D7240CAC86003A72A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		563493D8240CAC86003A72A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56EB8CB1240E53AF00846C4B /* KSYearOngoingTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYearOngoingTableViewController.h; sourceTree = "<group>"; };
+		56EB8CB2240E53AF00846C4B /* KSYearOngoingTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYearOngoingTableViewController.m; sourceTree = "<group>"; };
+		56EB8CB4240E72A600846C4B /* KSYearHaveFinishTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYearHaveFinishTableViewController.h; sourceTree = "<group>"; };
+		56EB8CB5240E72A600846C4B /* KSYearHaveFinishTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYearHaveFinishTableViewController.m; sourceTree = "<group>"; };
+		56EB8CB8240E72D500846C4B /* KSYearOverDueTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYearOverDueTableViewController.h; sourceTree = "<group>"; };
+		56EB8CB9240E72D500846C4B /* KSYearOverDueTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYearOverDueTableViewController.m; sourceTree = "<group>"; };
+		56EB8CBB240E846F00846C4B /* KSYearHomePageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYearHomePageView.h; sourceTree = "<group>"; };
+		56EB8CBC240E846F00846C4B /* KSYearHomePageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYearHomePageView.m; sourceTree = "<group>"; };
+		56ED4BD5240FE96E0098B160 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		56ED4BD7240FE99E0098B160 /* KStargetDataSqlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KStargetDataSqlViewController.h; sourceTree = "<group>"; };
+		56ED4BD8240FE99E0098B160 /* KStargetDataSqlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KStargetDataSqlViewController.m; sourceTree = "<group>"; };
+		56F0D53D240CFB4300B13AA7 /* KSNewBuildTargetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSNewBuildTargetViewController.h; sourceTree = "<group>"; };
+		56F0D53E240CFB4300B13AA7 /* KSNewBuildTargetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSNewBuildTargetViewController.m; sourceTree = "<group>"; };
+		56F0D540240CFB7D00B13AA7 /* KSYearTargetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYearTargetViewController.h; sourceTree = "<group>"; };
+		56F0D541240CFB7D00B13AA7 /* KSYearTargetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYearTargetViewController.m; sourceTree = "<group>"; };
+		56F0D543240CFBD400B13AA7 /* KSQuarterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSQuarterViewController.h; sourceTree = "<group>"; };
+		56F0D544240CFBD400B13AA7 /* KSQuarterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSQuarterViewController.m; sourceTree = "<group>"; };
+		56F0D546240CFBF700B13AA7 /* KSMonthTargetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSMonthTargetViewController.h; sourceTree = "<group>"; };
+		56F0D547240CFBF700B13AA7 /* KSMonthTargetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSMonthTargetViewController.m; sourceTree = "<group>"; };
+		56F0D549240CFC6200B13AA7 /* KSDayTargetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSDayTargetViewController.h; sourceTree = "<group>"; };
+		56F0D54A240CFC6200B13AA7 /* KSDayTargetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSDayTargetViewController.m; sourceTree = "<group>"; };
+		56F0D54C240CFCA400B13AA7 /* KSHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSHomePageViewController.h; sourceTree = "<group>"; };
+		56F0D54D240CFCA400B13AA7 /* KSHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSHomePageViewController.m; sourceTree = "<group>"; };
+		63B65E57D00AC67EB9D0C66A /* Pods-Biliilon1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biliilon1.debug.xcconfig"; path = "Target Support Files/Pods-Biliilon1/Pods-Biliilon1.debug.xcconfig"; sourceTree = "<group>"; };
+		92A27676F6C35B1015D93D1A /* Pods-Biliilon1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Biliilon1.release.xcconfig"; path = "Target Support Files/Pods-Biliilon1/Pods-Biliilon1.release.xcconfig"; sourceTree = "<group>"; };
+		F8604C4D281431C214D03316 /* Pods_Biliilon1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Biliilon1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		563493C0240CAC86003A72A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56ED4BD6240FE9750098B160 /* libsqlite3.tbd in Frameworks */,
+				B7E636D245458B07E697C9FB /* Pods_Biliilon1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		563493BA240CAC86003A72A8 = {
+			isa = PBXGroup;
+			children = (
+				563493C5240CAC86003A72A8 /* Biliilon1 */,
+				563493C4240CAC86003A72A8 /* Products */,
+				E3167D00EBA9A03F3542BE8E /* Pods */,
+				688F1617CE3FBDB0B6065187 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		563493C4240CAC86003A72A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				563493C3240CAC86003A72A8 /* Biliilon1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		563493C5240CAC86003A72A8 /* Biliilon1 */ = {
+			isa = PBXGroup;
+			children = (
+				56EB8CB7240E72B400846C4B /* New Group */,
+				563493C6240CAC86003A72A8 /* AppDelegate.h */,
+				563493C7240CAC86003A72A8 /* AppDelegate.m */,
+				563493C9240CAC86003A72A8 /* SceneDelegate.h */,
+				563493CA240CAC86003A72A8 /* SceneDelegate.m */,
+				563493CC240CAC86003A72A8 /* ViewController.h */,
+				563493CD240CAC86003A72A8 /* ViewController.m */,
+				563493CF240CAC86003A72A8 /* Main.storyboard */,
+				563493D2240CAC86003A72A8 /* Assets.xcassets */,
+				563493D4240CAC86003A72A8 /* LaunchScreen.storyboard */,
+				563493D7240CAC86003A72A8 /* Info.plist */,
+				563493D8240CAC86003A72A8 /* main.m */,
+				56F0D53D240CFB4300B13AA7 /* KSNewBuildTargetViewController.h */,
+				56F0D53E240CFB4300B13AA7 /* KSNewBuildTargetViewController.m */,
+				56F0D540240CFB7D00B13AA7 /* KSYearTargetViewController.h */,
+				56F0D541240CFB7D00B13AA7 /* KSYearTargetViewController.m */,
+				56F0D543240CFBD400B13AA7 /* KSQuarterViewController.h */,
+				56F0D544240CFBD400B13AA7 /* KSQuarterViewController.m */,
+				56F0D546240CFBF700B13AA7 /* KSMonthTargetViewController.h */,
+				56F0D547240CFBF700B13AA7 /* KSMonthTargetViewController.m */,
+				56F0D549240CFC6200B13AA7 /* KSDayTargetViewController.h */,
+				56F0D54A240CFC6200B13AA7 /* KSDayTargetViewController.m */,
+				56F0D54C240CFCA400B13AA7 /* KSHomePageViewController.h */,
+				56F0D54D240CFCA400B13AA7 /* KSHomePageViewController.m */,
+				56EB8CB2240E53AF00846C4B /* KSYearOngoingTableViewController.m */,
+				56EB8CB1240E53AF00846C4B /* KSYearOngoingTableViewController.h */,
+				56EB8CB4240E72A600846C4B /* KSYearHaveFinishTableViewController.h */,
+				56EB8CB5240E72A600846C4B /* KSYearHaveFinishTableViewController.m */,
+				56EB8CB8240E72D500846C4B /* KSYearOverDueTableViewController.h */,
+				56EB8CB9240E72D500846C4B /* KSYearOverDueTableViewController.m */,
+			);
+			path = Biliilon1;
+			sourceTree = "<group>";
+		};
+		56EB8CB7240E72B400846C4B /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				56EB8CBB240E846F00846C4B /* KSYearHomePageView.h */,
+				56EB8CBC240E846F00846C4B /* KSYearHomePageView.m */,
+				56ED4BD7240FE99E0098B160 /* KStargetDataSqlViewController.h */,
+				56ED4BD8240FE99E0098B160 /* KStargetDataSqlViewController.m */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		688F1617CE3FBDB0B6065187 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56ED4BD5240FE96E0098B160 /* libsqlite3.tbd */,
+				F8604C4D281431C214D03316 /* Pods_Biliilon1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3167D00EBA9A03F3542BE8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63B65E57D00AC67EB9D0C66A /* Pods-Biliilon1.debug.xcconfig */,
+				92A27676F6C35B1015D93D1A /* Pods-Biliilon1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		563493C2240CAC86003A72A8 /* Biliilon1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 563493DC240CAC86003A72A8 /* Build configuration list for PBXNativeTarget "Biliilon1" */;
+			buildPhases = (
+				7E6EADB6E390593417C903F5 /* [CP] Check Pods Manifest.lock */,
+				563493BF240CAC86003A72A8 /* Sources */,
+				563493C0240CAC86003A72A8 /* Frameworks */,
+				563493C1240CAC86003A72A8 /* Resources */,
+				D9163B6E0ACD599F0AB2F771 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Biliilon1;
+			productName = Biliilon1;
+			productReference = 563493C3240CAC86003A72A8 /* Biliilon1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		563493BB240CAC86003A72A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "杨倩";
+				TargetAttributes = {
+					563493C2240CAC86003A72A8 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 563493BE240CAC86003A72A8 /* Build configuration list for PBXProject "Biliilon1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 563493BA240CAC86003A72A8;
+			productRefGroup = 563493C4240CAC86003A72A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				563493C2240CAC86003A72A8 /* Biliilon1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		563493C1240CAC86003A72A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563493D6240CAC86003A72A8 /* LaunchScreen.storyboard in Resources */,
+				563493D3240CAC86003A72A8 /* Assets.xcassets in Resources */,
+				563493D1240CAC86003A72A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E6EADB6E390593417C903F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Biliilon1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9163B6E0ACD599F0AB2F771 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Biliilon1/Pods-Biliilon1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Biliilon1/Pods-Biliilon1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Biliilon1/Pods-Biliilon1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		563493BF240CAC86003A72A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				563493CE240CAC86003A72A8 /* ViewController.m in Sources */,
+				563493C8240CAC86003A72A8 /* AppDelegate.m in Sources */,
+				56EB8CB6240E72A600846C4B /* KSYearHaveFinishTableViewController.m in Sources */,
+				56EB8CB3240E53AF00846C4B /* KSYearOngoingTableViewController.m in Sources */,
+				56F0D53F240CFB4300B13AA7 /* KSNewBuildTargetViewController.m in Sources */,
+				563493D9240CAC86003A72A8 /* main.m in Sources */,
+				563493CB240CAC86003A72A8 /* SceneDelegate.m in Sources */,
+				56ED4BD9240FE99E0098B160 /* KStargetDataSqlViewController.m in Sources */,
+				56EB8CBD240E846F00846C4B /* KSYearHomePageView.m in Sources */,
+				56F0D545240CFBD400B13AA7 /* KSQuarterViewController.m in Sources */,
+				56EB8CBA240E72D500846C4B /* KSYearOverDueTableViewController.m in Sources */,
+				56F0D542240CFB7D00B13AA7 /* KSYearTargetViewController.m in Sources */,
+				56F0D548240CFBF700B13AA7 /* KSMonthTargetViewController.m in Sources */,
+				56F0D54B240CFC6200B13AA7 /* KSDayTargetViewController.m in Sources */,
+				56F0D54E240CFCA400B13AA7 /* KSHomePageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		563493CF240CAC86003A72A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				563493D0240CAC86003A72A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		563493D4240CAC86003A72A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				563493D5240CAC86003A72A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		563493DA240CAC86003A72A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		563493DB240CAC86003A72A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		563493DD240CAC86003A72A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63B65E57D00AC67EB9D0C66A /* Pods-Biliilon1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5WQ96HA48;
+				INFOPLIST_FILE = Biliilon1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.one.Biliilon1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		563493DE240CAC86003A72A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92A27676F6C35B1015D93D1A /* Pods-Biliilon1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5WQ96HA48;
+				INFOPLIST_FILE = Biliilon1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.one.Biliilon1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		563493BE240CAC86003A72A8 /* Build configuration list for PBXProject "Biliilon1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563493DA240CAC86003A72A8 /* Debug */,
+				563493DB240CAC86003A72A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		563493DC240CAC86003A72A8 /* Build configuration list for PBXNativeTarget "Biliilon1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				563493DD240CAC86003A72A8 /* Debug */,
+				563493DE240CAC86003A72A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 563493BB240CAC86003A72A8 /* Project object */;
+}

@@ -19,9 +19,13 @@
     
     //创建页面
     //首页
+    UIWindowScene *windowScene = (UIWindowScene *)scene;
+    self.window = [[UIWindow alloc] initWithWindowScene:windowScene];
+    self.window.frame = windowScene.coordinateSpace.bounds;
     KSHomePageViewController *homePageVC = [[KSHomePageViewController alloc] init];
     UINavigationController *navigationVC = [[UINavigationController alloc] initWithRootViewController:homePageVC];
     self.window.rootViewController = navigationVC;
+    [self.window makeKeyAndVisible];
    
 }
 
